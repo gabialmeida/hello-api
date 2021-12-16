@@ -1,3 +1,15 @@
+<!--
+This is a reusable component that receives via props an Array of pokemons to be displayed.
+In order to keep the design consistent, the prop selectedId exists so it is possible to know
+which of the pokemons will keep the focus on them when they are selected.
+
+This component communicates to the HelloAPI via event. When there is a click on one Pokemon
+card, it sends the Pokemon Id, so the evolutions can be shown in the parent.
+
+This page uses the component Cards, that is more generic, and can be used to structure cards
+in this project or in other projects, which allows code reusability.
+-->
+
 <template>
   <div class="cards">
     <card 

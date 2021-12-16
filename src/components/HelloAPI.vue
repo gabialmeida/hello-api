@@ -1,3 +1,13 @@
+<!--
+This is the application's main page. It is going to be rendered in the App.vue
+
+In this page, we have all the business logics, meaning that the API call is made here,
+according to the data that needs to be shown, such as which pokemons will appear, and how to
+calculate in order to get their evolutions.
+
+This page uses the component PokemonCards that uses another component Cards.
+-->
+
 <template>
   <h2 class="title"> Choose your initial Pokemon </h2>
   <p class="hint"> When you choose your preferred Pokemon, you can see its evolutions. </p>

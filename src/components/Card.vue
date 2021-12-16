@@ -1,3 +1,14 @@
+<!--
+This is a reusable component that is styled to show content as cards with title, content,
+and description.
+
+In order to make this component more generic and easy to personalize, there are slots on
+each of the 3 main areas to show content: tile, content, and description. This allows the
+developers to add content according to their will, not matter what they need. In this case, 
+the component Cards is not limited by the props, considering there can be any content inside
+each slot. 
+-->
+
 <template>
   <div class="card">
     <div class="title">
